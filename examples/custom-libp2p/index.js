@@ -18,7 +18,7 @@ const wrtc = require('wrtc')
 const Upgrader = require('./node_modules/libp2p/src/upgrader')
 
 const signalServerIP = () => {
-  return '127.0.0.1'
+  return '127.0.0.1' // (I am running an instance of libp2p-webrtc-star/src/sig-server on a droplet)
 }
 
 const signalServerCID = () => {
